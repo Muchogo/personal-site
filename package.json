@@ -1,10 +1,9 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://Muchogo.github.io/personal-site/",
+  "homepage": "https://Muchogo.github.io/personal-site",
   "license": "MIT",
-  "repository": {
-  },
+  "repository": {},
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
     "predeploy": "npm run build && react-snap",
@@ -12,7 +11,7 @@
     "start": "react-scripts start",
     "lint": "eslint src",
     "test": "react-scripts test --watchAll=false",
-    "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js"
+    "analyze": "npm run build && source-map-explorr build/static/js/*.chunk.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
